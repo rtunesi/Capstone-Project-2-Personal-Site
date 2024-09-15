@@ -1,0 +1,63 @@
+.gradient-background {
+    background: linear-gradient(300deg, #222831, #31363F, #76ABAE);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.opening-body{
+    background-color: #76ABAE;
+}
+
+.floated{
+    display: flex;
+    justify-content: right;
+}
+
+.copyright{
+    color: white;
+    background-color: #393E46;
+    text-align: center;
+}
+
+.header-container{
+    background-image: url("./images/banner-image.jpg");
+    height: 250px;
+    color: white;
+}
+
+.header-container > *{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 20px;
+}
+
+.projects-container{
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.contact-me-container{
+    margin-top: 10px;;
+    text-align: center;
+    margin-bottom: 20px;
+}
